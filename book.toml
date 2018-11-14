@@ -1,5 +1,5 @@
 [book]
-title = "Example book"
+title = "mdbook 模范 例子"
 authors = ["yobrave"]
 description = "mdbook nice 例子."
 
@@ -15,7 +15,7 @@ google-analytics = "UA-128555056-1"
 additional-css = ["src/theme/custom.css"]
 git_repository_url = "https://github.com/chinanf-boy/mdbook-nice-example"
 git_repository_icon = "fa-github"
-# additional-js = ["custom.js"]
+# additional-js = ["src/theme/custom.js"]
 
 [output.html.playpen]
 # editor = "./path/to/editor"
