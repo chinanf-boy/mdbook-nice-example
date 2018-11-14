@@ -4,7 +4,7 @@ authors = ["yobrave"]
 description = "mdbook nice 例子."
 
 [build]
-build-dir = "book"
+build-dir = "docs"
 create-missing = true
 preprocess = ["links", "index"]
 
@@ -13,6 +13,8 @@ theme = "src/theme"
 curly-quotes = true
 google-analytics = "UA-128555056-1"
 additional-css = ["src/theme/custom.css"]
+git_repository_url = "https://github.com/chinanf-boy/mdbook-nice-example"
+git_repository_icon = "fa-github"
 # additional-js = ["custom.js"]
 
 [output.html.playpen]

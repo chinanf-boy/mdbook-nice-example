@@ -1,5 +1,9 @@
 ## mdbook 好的 例子 (未完成❎)
 
+类(gitbooks)文档，专为Rust 语言md文档服务
+
+> mdbook本身，还有很多小 bug，所以使用过程 **不要过于纠结**
+
 ### 请安装mdbook
 
 ```
@@ -41,9 +45,13 @@ document.getElementById("edit-button").addEventListener("click", function(){
 
 </details>
 
+- **2.** `git_repository_url` 不成功
 
-
+``` toml
+git_repository_url = "https://github.com/chinanf-boy/mdbook-nice-example"
+git_repository_icon = "fa-github"
+```
 
 ### 相关
 
-- [mdbook 文档](https://github.com/chinanf-boy/mdbook-zh)
+- [mdbook 中文文档](https://github.com/chinanf-boy/mdbook-zh)
