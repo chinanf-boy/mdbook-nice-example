@@ -153,7 +153,7 @@
             <!-- // START - Rust Cookbook customization -->
             <script>
                 document.getElementById("edit-button").addEventListener("click", function () {
-                    var editWindow = window.open("https://github.com/rust-lang-nursery/rust-cookbook/edit/master/src/include.md");
+                    var editWindow = window.open("https://github.com/chinanf-boy/mdbook-nice-example/edit/master/src/include.md");
                 });</script>
             <!-- // END - Rust Cookbook customization -->
 
@@ -200,21 +200,6 @@
 
     </div>
 
-    
-    <!-- Livereload script (if served using the cli tool) -->
-    <script type="text/javascript">
-        var socket = new WebSocket("ws://localhost:3001");
-        socket.onmessage = function (event) {
-            if (event.data === "reload") {
-                socket.close();
-                location.reload(true); // force reload from server (not from cache)
-            }
-        };
-
-        window.onbeforeunload = function () {
-            socket.close();
-        }
-    </script>
     
 
     
