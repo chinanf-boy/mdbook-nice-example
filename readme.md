@@ -68,10 +68,15 @@ git_repository_icon = "fa-github"
 - [x] anything，其他杂七杂八的都在[book.toml]
 
 > **NOTE >** Issue me , If you have question with this repo.
-> But, about the bug of mdbook, please Link [that Source Issue Page](https://github.com/rust-lang-nursery/mdBook)
+> But, about the bug of mdbook, please Link [that Source Page][mdbook]
 
 ### 相关
 
 [book.toml]: book.toml
+
+> mostly :bulb: come from [mdbook] / [rust-cookbook] themes
+
+[mdbook]: https://github.com/rust-lang-nursery/mdBook
+[rust-cookbook]: https://github.com/rust-lang-nursery/rust-cookbook
 
 - [mdbook 中文文档](https://github.com/chinanf-boy/mdbook-zh)
