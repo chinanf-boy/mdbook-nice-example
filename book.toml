@@ -9,6 +9,7 @@ create-missing = true
 preprocess = ["links", "index"]
 
 [output.html]
+mathjax-support = false
 theme = "src/theme"
 curly-quotes = true
 google-analytics = "UA-128555056-1"
