@@ -16,7 +16,7 @@ cargo install mdbook
 
 ### 看看
 
-[web网站]
+[web网站](https://chinanf-boy.github.io/mdbook-nice-example)
 
 - clone
 
