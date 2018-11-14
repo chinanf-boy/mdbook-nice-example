@@ -16,15 +16,15 @@ cargo install mdbook
 
 ### 看看
 
-[web网站](https://chinanf-boy.github.io/mdbook-nice-example)
+- 1. [web网站](https://chinanf-boy.github.io/mdbook-nice-example)
 
-- clone
+- 2. Or `clone`
 
 ```
 git clone https://github.com/chinanf-boy/mdbook-nice-example.git
 ```
 
-- `cd` *, look html
+- 2.1 `cd` *, look html
 
 ```
 mdbook serve --open
