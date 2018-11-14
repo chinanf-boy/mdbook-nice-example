@@ -2,6 +2,7 @@
 title = "mdbook 模范 例子"
 authors = ["yobrave"]
 description = "mdbook nice 例子."
+language = "zh-CN"
 
 [build]
 build-dir = "docs"
