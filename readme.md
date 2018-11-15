@@ -40,12 +40,12 @@ mdbook serve --open
 
 - [x] **1.** 加了个编辑按钮
 
-可通过，在`index.hbs`[修改成自己的源项目地址](./src/theme/index.hbs#L163)
+可通过，在`index.hbs`[修改成自己的源项目地址](./theme/index.hbs#L163)
 
 <details>
 <summary>例子</br></summary>
 
-> `src/theme/index.hbs`
+> `src/index.hbs`
 
 ``` hbs
 document.getElementById("edit-button").addEventListener("click", function(){
@@ -65,7 +65,7 @@ git_repository_url = "https://github.com/chinanf-boy/mdbook-nice-example"
 git_repository_icon = "fa-github"
 ```
 
-且，hbs模版是[有添加的](./src/theme/index.hbs#L128)，我想这就是bug吧
+且，hbs模版是[有添加的](./theme/index.hbs#L128)，我想这就是bug吧
 
 - [x] anything，其他杂七杂八的都在[book.toml]
 
