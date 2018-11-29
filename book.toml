@@ -8,7 +8,9 @@ language = "zh-CN"
 build-dir = "docs"
 create-missing = true
 use-default-preprocessors = false
-preprocess = ["links"]
+
+[preprocessor.links]
+# renderers = ["html"]
 
 [output.html]
 mathjax-support = false
