@@ -23,6 +23,9 @@ git_repository_icon = "fa-github"
 # additional-js = ["theme/custom.js"]
 
 [output.linkcheck]
+follow-web-links = true
+traverse-parent-directories = false
+exclude = [ "google\\.com" ]
 
 [output.html.playpen]
 # editor = "./path/to/editor"
