@@ -22,6 +22,8 @@ git_repository_url = "https://github.com/chinanf-boy/mdbook-nice-example"
 git_repository_icon = "fa-github"
 # additional-js = ["theme/custom.js"]
 
+[output.linkcheck]
+
 [output.html.playpen]
 # editor = "./path/to/editor"
 editable = false
